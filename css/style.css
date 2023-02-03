@@ -145,8 +145,16 @@ img {
 } 
 
 @media screen and (max-width: 480px){
+    .container{
+        padding: 0 33px;
+    }
+    
     .row{
         flex-wrap: wrap;
+    }
+
+    h1{
+        font-size: 3rem;
     }
 
     h2{
@@ -176,7 +184,7 @@ img {
     }
 
     .col{
-        margin-bottom: 3rem;
+        margin-bottom: 4rem;
     }
     
     .lessons .col, 
